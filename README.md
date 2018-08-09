@@ -18,9 +18,9 @@ packages in this algorithm: ntlk, numpy, pandas, pprint, gensim, pyLDAvis, matpl
 pip3 install nltk  
 pip3 install numpy   
 pip3 install panda  
-pip3 install gensim 
-pip3 install pyLDAvis  
-pip3 install matplotlib  
+pip3 install gensim    
+pip3 install pyLDAvis    
+pip3 install matplotlib   
 pip3 install spacy 
 
 
