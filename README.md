@@ -13,8 +13,7 @@ Topic Modeling is Always a popular way to know what's people are talking about. 
 
 
 # Output   
-This programs otuput will produce a dataset, For each sentence it will have the First/Second/Third/Fourth Topic meaning. In that way, people can know the main topic and details.  Then we can utilize the Tableau Treemap to visualize the results like below. 
-
+This programs otuput will produce a dataset, For each sentence it will have the First/Second/Third/Fourth Topic meaning and Four Directory, in which it will include the current depth of tree topic top 10 most representative documents.
 
 
 
