@@ -1,11 +1,18 @@
-# Hierarchical-LDA-Topic-Modeling(Python3 Version) 
-Created the Hierarchical LDA topic modeling algorithms based on penalized average cosine similarity algorithms
+# Hierarchical-LDA-Topic-Modeling(Python3 Version)
 
 
-Implement the Hierarchical LDA topic modeling algorithmsc based on penalized avergae coisine similarity methods created by Yuxiang Hou  
+# BackGround  
+Topic Modeling is Always a popular way to know what's people are talking about. But how to get the correct number of topics is always a tricky problem in LDA topic modeling. This algorithm created by Mayank, Yuxiang Hou From Information Science Institute.It was mainly to solve the problem of how to get correct number of topics in traiditonal LDA topic modeling and get overviews and details of what people are talking about.The Main idea is to run LDA topic model in corpus, and get the number of topics based on lowest avergae cosine similarity. And then run the LDA topic model in each sub topic, in this way, it will create the hierarchical tree structured topic modeling. 
 
-Problem desciption- LDA topic modeling algroithm always have a hard time to get the number of topic.This Algorithm will automatically get the correct number of topics based on average cosine similarity.    
 
+# Algorithms Details
+1.Created the Auto-LDA topic modeling algorithms based on penalized average cosine similarity algorithms.(Auto LDA is a algorithm created by Yuxiang Hou to get the correct number of topics based on lowest average cosine similarity bacause the less the overlapping topics model, the better the result is).    
+
+2.Utilized BFS algorithm to get each layer tree sub topics. And for these sub topics, run the Auto-LDA again util the tree depths reach 5 or the topic meaning is not relevant to disasters. 
+
+
+
+# Output   
 This programs otuput will produce a dataset, For each sentence it will have the First/Second/Third/Fourth Topic meaning. In that way, people can know the main topic and details.  Then we can utilize the Tableau Treemap to visualize the results like below. 
 
 
