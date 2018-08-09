@@ -4,7 +4,9 @@ Created the Hierarchical LDA topic modeling algorithms based on penalized averag
 
 Implement the Hierarchical LDA topic modeling algorithmsc based on penalized avergae coisine similarity methods created by Yuxiang Hou  
 
-Problem desciption- LDA topic modeling algroithm always have a hard time to get the number of topic.This Algorithm will automatically get the correct number of topics based on average cosine similarity. 
+Problem desciption- LDA topic modeling algroithm always have a hard time to get the number of topic.This Algorithm will automatically get the correct number of topics based on average cosine similarity.    
+
+This programs otuput will produce a dataset, For each sentence it will have the First/Second/Third/Fourth Topic meaning. In that way, people can know the main topic and details.  Then we can utilize the Tableau Treemap to visualize the results like below. 
 
 
 
@@ -49,7 +51,7 @@ python3 /Users/yuxianghou/Desktop/HLDA.py /Users/yuxianghou/Desktop/GroundTruth.
 
 # Visulization Result:
 
-Utilized Tableau To visualize the result:
+Utilized Tableau To visualize the Hierarchical LDA output results:
 
 Depth one:  
 
