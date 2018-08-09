@@ -25,7 +25,7 @@ pip3 install spacy
 
 
 # Run programs on Command line  
-four parameters need to be wrote in the command line:   
+four parameters need to be set up after programs running:   
 1. Json line path which includes all the single json files 
 2. Lexicon json path     
 3. Id path in the single json files.        
@@ -44,7 +44,7 @@ Sentence path is "key2.Sentence"
 
 # Command line Running Example
 
-python3 /Users/yuxianghou/Desktop/HLDA.py /Users/yuxianghou/Desktop/GroundTruth.json /Users/yuxianghou/Desktop/HADR_Topic_Lexicon_20160323.json uuid loreleiJSONMapping.translatedText
+python3 /Users/yuxianghou/Desktop/HLDA.py
 
 
 
