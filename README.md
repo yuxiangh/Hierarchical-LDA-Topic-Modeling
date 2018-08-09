@@ -52,7 +52,7 @@ python3 /Users/yuxianghou/Desktop/HLDA.py
 
 # Visulization Result:
 
-Utilized Tableau To visualize the Hierarchical LDA output results:
+Utilized Tableau treemap To visualize the Hierarchical LDA output results:
 
 Depth one:  
 
