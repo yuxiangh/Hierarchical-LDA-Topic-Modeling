@@ -30,7 +30,7 @@ pip3 install matplotlib
 pip3 install spacy 
 
 
-# Run programs on Command line  
+# Configure File parameters explaniation 
 four parameters need to be set up after programs running:   
 1. Json line path which includes all the single json files 
 2. Lexicon json path     
@@ -50,7 +50,7 @@ Sentence path is "key2.Sentence"
 
 # Command line Running Example
 
-python3 /Users/yuxianghou/Desktop/HLDA.py
+python3 /Users/yuxianghou/Desktop/HLDA.py /Users/yuxianghou/Desktop/HLDA_Configure.json
 
 
 
