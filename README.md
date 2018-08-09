@@ -36,7 +36,7 @@ Explaniation of input parameters of Id path and Sentence Path in a single json f
 Example:
 {key1:{"Id":12345},key2:{"Sentence":"this programs is aweseome"}}  
 
-Id path is "key1.Id"
+Id path is "key1.Id"  
 Sentence path is "key2.Sentence"
 
 
