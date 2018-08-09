@@ -1,4 +1,4 @@
-# Hierarchical-LDA-Topic-Modeling
+# Hierarchical-LDA-Topic-Modeling(Python3 Version) 
 Created the Hierarchical LDA topic modeling algorithms based on penalized average cosine similarity algorithms
 
 
@@ -13,19 +13,73 @@ Problem desciption- LDA topic modeling algroithm always have a hard time to get 
 # Configuration set up
 packages in this algorithm: ntlk, numpy, pandas, pprint, gensim, pyLDAvis, matplotlib, spacy 
 
-pip install nltk  
-pip install numpy   
-pip install panda  
-pip install gensim 
-pip install pyLDAvis  
-pip install matplotlib  
-pip install spacy 
+pip3 install nltk  
+pip3 install numpy   
+pip3 install panda  
+pip3 install gensim 
+pip3 install pyLDAvis  
+pip3 install matplotlib  
+pip3 install spacy 
+
+
+# Run programs on Command line  
+four parameters need to be wrote in the command line:   
+1. Json line path which includes all the single json files 
+2. Lexicon json path     
+3. Id path in the single json files.        
+4. Sentence path in the single json files.       
+
+
+Explaniation of input parameters of Id path and Sentence Path in a single json file:   
+Example:
+{key1:{"Id":12345},key2:{"Sentence":"this programs is aweseome"}}  
+
+Id path is "key1.Id"
+Sentence path is "key2.Sentence"
+
+
+
+# Command line Running Example
+
+python3 /Users/yuxianghou/Desktop/HLDA.py /Users/yuxianghou/Desktop/GroundTruth.json /Users/yuxianghou/Desktop/HADR_Topic_Lexicon_20160323.json uuid loreleiJSONMapping.translatedText
+
+
 
 
 
 # Visulization Result:
 
 Utilized Tableau To visualize the result:
+
+Depth one:  
+
+![alt text](https://github.com/yuxiangh/Hierarchical-LDA-Topic-Modeling/blob/master/HLDA%20Visualiztion/depth%201.png) 
+
+
+
+Depth Two:
+![alt text](https://github.com/yuxiangh/Hierarchical-LDA-Topic-Modeling/blob/master/HLDA%20Visualiztion/depth2.png)   
+
+
+Depth Three:   
+![alt text](https://github.com/yuxiangh/Hierarchical-LDA-Topic-Modeling/blob/master/HLDA%20Visualiztion/depth3.png)   
+
+Depth Four:
+![alt text](https://github.com/yuxiangh/Hierarchical-LDA-Topic-Modeling/blob/master/HLDA%20Visualiztion/depth4.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
