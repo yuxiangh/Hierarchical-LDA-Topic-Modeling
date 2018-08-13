@@ -30,7 +30,7 @@ pip3 install matplotlib
 pip3 install spacy 
 
 
-# Configure File parameters explaniation 
+# Configure File parameters explaination
 four parameters need to be set up after programs running:   
 1. Json line path which includes all the single json files 
 2. Lexicon json path     
