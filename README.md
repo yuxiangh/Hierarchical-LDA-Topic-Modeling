@@ -58,6 +58,8 @@ python3 /Users/yuxianghou/Desktop/HLDA.py /Users/yuxianghou/Desktop/HLDA_Configu
 
 # Visulization Result:
 
+![alt text](https://github.com/yuxiangh/Hierarchical-LDA-Topic-Modeling/blob/master/HLDA%20Visualiztion/image.png)
+
 Utilized Tableau treemap To visualize the Hierarchical LDA output results:
 
 Depth one:  
